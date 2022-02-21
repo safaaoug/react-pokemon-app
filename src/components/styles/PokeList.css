@@ -1,0 +1,28 @@
+.list-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+
+.all-poke {
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.filter-poke {
+  margin-left: auto;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}

@@ -1,0 +1,14 @@
+.poke-card {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(252, 252, 252);
+  background-repeat: no-repeat;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+}

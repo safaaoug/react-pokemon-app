@@ -1,0 +1,35 @@
+.skeleton {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(219, 215, 215);
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  animation: shine 1s infinite;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+@keyframes shine {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
